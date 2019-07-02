@@ -255,10 +255,7 @@ weex使用：
 
 ## 展示效果
 
-<img width="480" src="https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png" />
-<img width="480" src="https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png" />
+[![mapView](https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png)](https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png)
 
-<div >
-    <img width="960" src="https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png" />
-    <img width="960" src="https://github.com/ZJWeex/wxbaidumap/blob/master/search.png" />
-</div>
+<img width="400" src="https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png" />
+<img width="400" src="https://github.com/ZJWeex/wxbaidumap/blob/master/search.png" />
