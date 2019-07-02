@@ -254,9 +254,17 @@ weex使用：
 ```
 
 ## 展示效果
+<table>
+    <tr>
+        <td >
+            <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png" >图3 </center>
+        </td>
+        <td >
+            <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/search.png" >图4 </center>
+        </td>
+    </tr> 
+</table>
 
-[![MapView](https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png)](https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png)
-[![Annotation](https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png)](https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png)
 
 <img width="400" src="https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png" />
 <img width="400" src="https://github.com/ZJWeex/wxbaidumap/blob/master/search.png" />
