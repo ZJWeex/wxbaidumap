@@ -257,7 +257,8 @@ weex使用：
 <table>
     <tr>
         <td >
-            <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png" >图1 </center>
+            <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png" ></center>
+            <center>图1</center>
         </td>
         <td >
             <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png" >图2 </center>
@@ -274,7 +275,7 @@ weex使用：
 </table>
 
 
-### readme同一行插入**多张图片**
+### readme同一行插入多张图片
  
  ```
   实现方法如上代码，使用 HTML 语法，让图片包括在 <table> 标签里面，
