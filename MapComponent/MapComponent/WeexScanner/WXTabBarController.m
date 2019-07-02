@@ -31,14 +31,14 @@
     [self setTabBarChildController];
 }
 - (void)setTabBarChildController{
-    NSArray *titleArray = @[@"首页",@"兴趣",@"我的"];
-    NSArray *imageArray = @[@"tab_button_message",@"tab_button_settings",@"tab_button_friends"];
-    NSArray *classNames = @[@"WXViewController",@"WXViewController", @"WXViewController"];
+    NSArray *titleArray = @[@"首页",@"兴趣",@"社区",@"我的"];
+    NSArray *imageArray = @[@"tab_button_message",@"tab_button_settings",@"tab_button_message",@"tab_button_friends"];
+    NSArray *classNames = @[@"WXViewController",@"WXViewController", @"MessageController",@"WXViewController"];
     _urlList = @[
-                 @"http://192.168.15.235:8081/dist/index.js",
-                 @"base-superior/homepage_index.js",
+                 @"index.js",
+                 @"http://192.168.15.220:8081/dist/base-superior/homepage_index.js",
                  @"",
-                 @"base-superior/personal_index.js",
+                 @"http://192.168.15.220:8081/dist/base-superior/personal_index.js",
                  ];
     [self.tabBar setTranslucent:NO];
     [self.tabBar setTintColor:[UIColor lightTextColor]];
@@ -78,7 +78,8 @@
         NSDictionary *selectDic = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:16/255.0 green:212/255.0 blue:201/255.0 alpha:1.0],NSForegroundColorAttributeName,shad,NSShadowAttributeName,[UIFont boldSystemFontOfSize:10],NSFontAttributeName, nil];
         [vc.tabBarItem setTitleTextAttributes:selectDic forState:UIControlStateSelected];
         WXRootViewController *navi = [[WXRootViewController alloc] initWithRootViewController:vc];
-        
+        [navi.navigationBar setTintColor:[UIColor colorWithRed:16/255.0 green:212/255.0 blue:201/255.0 alpha:1.0]];
+        [navi.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:16/255.0 green:212/255.0 blue:201/255.0 alpha:1.0]}];
         [self addChildViewController:navi];
     }
     

@@ -39,6 +39,7 @@
 		B611375922C602DA002F43F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B611375822C602DA002F43F5 /* ViewController.m */; };
 		B6208BAD22C9A89000C965CE /* NSURL+XZOL.m in Sources */ = {isa = PBXBuildFile; fileRef = B6208BAC22C9A89000C965CE /* NSURL+XZOL.m */; };
 		B6208BB022C9C53900C965CE /* WXResultBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6208BAF22C9C53900C965CE /* WXResultBackgroundView.m */; };
+		B65D739D22CB22AA00129AD3 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D739C22CB22AA00129AD3 /* MessageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,8 @@
 		B6208BAC22C9A89000C965CE /* NSURL+XZOL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+XZOL.m"; sourceTree = "<group>"; };
 		B6208BAE22C9C53900C965CE /* WXResultBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXResultBackgroundView.h; sourceTree = "<group>"; };
 		B6208BAF22C9C53900C965CE /* WXResultBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXResultBackgroundView.m; sourceTree = "<group>"; };
+		B65D739B22CB22AA00129AD3 /* MessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
+		B65D739C22CB22AA00129AD3 /* MessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
 		C4739AB309485DF575603762 /* Pods-MapComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapComponent/Pods-MapComponent.release.xcconfig"; sourceTree = "<group>"; };
 		C9CF1970CB05CC49E15C0FB2 /* Pods-MapComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapComponentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapComponentUITests/Pods-MapComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D188D4CA9527B7D61A18DF28 /* Pods_MapComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapComponentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +194,7 @@
 				B610EC8422C4C91C00B8D389 /* AppDelegate.m */,
 				B611375722C602DA002F43F5 /* ViewController.h */,
 				B611375822C602DA002F43F5 /* ViewController.m */,
+				B65D739A22CB224F00129AD3 /* NativeClass */,
 				B610ED6E22C4E07400B8D389 /* WeexScanner */,
 				B610ED4E22C4E06800B8D389 /* WeexConfig */,
 				B610ED3722C4E02800B8D389 /* LocationModule */,
@@ -288,6 +292,15 @@
 				B611370022C5A4B9002F43F5 /* WXTabBarController.m */,
 			);
 			path = WeexScanner;
+			sourceTree = "<group>";
+		};
+		B65D739A22CB224F00129AD3 /* NativeClass */ = {
+			isa = PBXGroup;
+			children = (
+				B65D739B22CB22AA00129AD3 /* MessageController.h */,
+				B65D739C22CB22AA00129AD3 /* MessageController.m */,
+			);
+			path = NativeClass;
 			sourceTree = "<group>";
 		};
 		E2955F0B8DFE1F37F969B2C5 /* Pods */ = {
@@ -571,6 +584,7 @@
 				B611375922C602DA002F43F5 /* ViewController.m in Sources */,
 				B610EC8522C4C91C00B8D389 /* AppDelegate.m in Sources */,
 				B610EDB922C4E11D00B8D389 /* WXPaopaoView.m in Sources */,
+				B65D739D22CB22AA00129AD3 /* MessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
