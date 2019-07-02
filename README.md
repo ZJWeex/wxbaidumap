@@ -52,6 +52,10 @@
 7.使用ide打开wxbaidumap，运行weex项目。使用Xcode运行MapComponent，即可看到weex运行后的界面。
 
 ## 编辑你的weex文件
+打开weex项目执行命令：
+```
+npm install
+```
 
 添加一个展示地图的文件:
 ```
