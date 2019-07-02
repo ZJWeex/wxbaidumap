@@ -257,6 +257,14 @@ weex使用：
 <table>
     <tr>
         <td >
+            <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png" >图1 </center>
+        </td>
+        <td >
+            <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png" >图2 </center>
+        </td>
+    </tr> 
+    <tr>
+        <td >
             <center><img src="https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png" >图3 </center>
         </td>
         <td >
@@ -265,6 +273,3 @@ weex使用：
     </tr> 
 </table>
 
-
-<img width="400" src="https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png" />
-<img width="400" src="https://github.com/ZJWeex/wxbaidumap/blob/master/search.png" />
