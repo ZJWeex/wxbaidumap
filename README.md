@@ -30,7 +30,7 @@
     }];
 ```
 5.在native项目的DemoDefine.h中修改IP为你的服务IP。
-  在NSURL+XZOL.m的HTTP_RemoteResourceReplace方法中设置远程线上服务器地址
+  <br>在NSURL+XZOL.m的HTTP_RemoteResourceReplace方法中设置远程线上服务器地址
   ```
   + (NSString *)HTTP_RemoteResourceReplace{
       //例如：http://www.baidu.com/weex/dist/
@@ -38,7 +38,7 @@
     }
   ```
   6.配置入口文件
-   在WXTabBarController.m中，修改数组urlList对应的路径为你的weex项目入口文件路径，
+   <br>在WXTabBarController.m中，修改数组urlList对应的路径为你的weex项目入口文件路径，
    TabBar我们采用原生的TabBarController。
    ```
    _urlList = @[
@@ -125,36 +125,36 @@ $ npm start
 | ------------- |:-------------:| -----:|----------:|
 
 ### 提供给weex使用的属性
-  zoomLevel：比例尺等级，默认14。取值范围：4-21；
-  zoomControlsEnabled：是否展示地图缩放按钮，默认false。ios不支持；
-  showTraffic：是否实时显示路况信息,默认false；
-  userLocation：用户位置的经纬度，例：{latitude:'31.242727',longitude:'121.513295'}
-  showScaleBar：是否显式比例尺，默认true
-  scaleBarPosition：比例尺的位置，例如：{x:10,y:10}
+  zoomLevel：比例尺等级，默认14。取值范围：4-21； <br>
+  zoomControlsEnabled：是否展示地图缩放按钮，默认false。ios不支持； <br>
+  showTraffic：是否实时显示路况信息,默认false； <br>
+  userLocation：用户位置的经纬度，例：{latitude:'31.242727',longitude:'121.513295'} <br>
+  showScaleBar：是否显式比例尺，默认true <br>
+  scaleBarPosition：比例尺的位置，例如：{x:10,y:10} <br>
 
 ### 提供给weex使用的事件方法
-  mapLoaded：地图加载完成事件；
-  selectBubble：选中标注事件；
-  autoAddAnnotation：点击地图空白处添加标注事件,不实现该方法，无法添加。
+  mapLoaded：地图加载完成事件；<br>
+  selectBubble：选中标注事件；<br>
+  autoAddAnnotation：点击地图空白处添加标注事件,不实现该方法，无法添加。<br>
 ### 地图元素添加标注方法
 weex使用：
 ```
    this.$refs.map.addAnnotation(annotationConfig)
 ```
-  annotationConfig配置对象参数说明：
-    pointType:0:默认标注 1:自定义标注图标
-    paopaoType:0:默认泡泡，1:自定义泡泡
-    canShowCallout:设置气泡是否可以弹出true或false
-    select:设置标注是否弹出气泡true或false，只能选中一个
-    pinColor:pointType为0时有效 pinColor取值：red,green,purple
-    image:设置标注图片,在pointType为1时有效；设置泡泡图片paopaoType为1时有效
-    title:若title为nil，则无法弹出泡泡
-    subtitle:副标题
+  annotationConfig配置对象参数说明：<br>
+    pointType:0:默认标注 1:自定义标注图标 <br>
+    paopaoType:0:默认泡泡，1:自定义泡泡 <br>
+    canShowCallout:设置气泡是否可以弹出true或false <br>
+    select:设置标注是否弹出气泡true或false，只能选中一个 <br>
+    pinColor:pointType为0时有效 pinColor取值：red,green,purple <br>
+    image:设置标注图片,在pointType为1时有效；设置泡泡图片paopaoType为1时有效 <br>
+    title:若title为nil，则无法弹出泡泡 <br>
+    subtitle:副标题 <br>
 
 ## location模块
 **location** 模块提供了以下展示消息框的 API: `location`、`geoCode`、`reverseGeoCode`、`POISearch`
 ### location(callback)
-说明：返回经纬度及位置信息
+说明：返回经纬度及位置信息 <br>
 返回结果：
 ```
  {
@@ -178,8 +178,8 @@ weex使用：
  }
 ```
 ### geoCode(options,callback)
-说明：根据位置信息返回经纬度；
-参数options：{"city":"城市名称","address":"街道地址"}
+说明：根据位置信息返回经纬度；<br>
+参数options：{"city":"城市名称","address":"街道地址"} <br>
 返回结果：
 ```
  {
@@ -198,8 +198,8 @@ weex使用：
 ```
 
 ### reverseGeoCode(options,callback)
- 说明：根据地理编码返回结果
- 参数options：{"latitude":"纬度","longitude":"经度"}
+ 说明：根据地理编码返回结果 <br>
+ 参数options：{"latitude":"纬度","longitude":"经度"} <br>
  返回结果：
  ```
  {
@@ -230,8 +230,8 @@ weex使用：
  }
  ```
 ### POISearch(options,callback)
-说明：城市POI搜索服务
-参数options：{"city":"城市名称","keyword":"关键字"}
+说明：城市POI搜索服务 <br>
+参数options：{"city":"城市名称","keyword":"关键字"} <br>
 返回结果：
 ```
 {
