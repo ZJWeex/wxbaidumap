@@ -13,7 +13,7 @@ target 'MapComponent' do
   pod 'SDWebImage', '~> 5.0'
   pod 'BaiduMapKit', '~> 4.3.2'
   pod 'BMKLocationKit', '~> 1.6.0'
-   pod 'SocketRocket', '0.4.2'
+  pod 'SocketRocket', '0.4.2'
   
   target 'MapComponentTests' do
     inherit! :search_paths
