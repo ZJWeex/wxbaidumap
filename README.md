@@ -255,7 +255,7 @@ weex使用：
 
 ## 展示效果
 
-<div style="flex-direction: row;">
+<div flex-direction="row">
     <img width="960" src="https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png" />
     <img width="960" src="https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png" />
 </div>
