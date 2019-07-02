@@ -7,7 +7,7 @@
 ## 快速开始
 1.首先在百度地图开放平台注册应用AK。
 
-2.在iOS的工程中引入weexSDK,以及百度地图、定位SDK:
+2.打开iOS项目MapComponent，在工程中引入weexSDK,以及百度地图、定位SDK:
 
 ```
   pod 'MJExtension', '~> 3.0.17'
@@ -49,7 +49,7 @@
                  ];
    ```
    其他设置可根据需要配置。
-
+7.使用ide打开wxbaidumap，运行weex项目。使用Xcode运行MapComponent，即可看到weex运行后的界面。
 
 ## 编辑你的weex文件
 
@@ -273,3 +273,5 @@ weex使用：
         </td>
     </tr> 
 </table>
+
+
