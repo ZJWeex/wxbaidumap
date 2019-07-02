@@ -8,18 +8,19 @@
 1.首先在百度地图开放平台注册应用AK。
 
 2.在iOS的工程中引入weexSDK,以及百度地图、定位SDK:
-    ```
-    pod 'MJExtension', '~> 3.0.17'
-    pod 'WeexSDK', '~> 0.24.0'
-    pod 'SDWebImage', '~> 5.0'
-    pod 'BaiduMapKit', '~> 4.3.2'
-    pod 'BMKLocationKit', '~> 1.6.0'
-    pod 'SocketRocket', '0.4.2'
-    ```
+
+```
+  pod 'MJExtension', '~> 3.0.17'
+  pod 'WeexSDK', '~> 0.24.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'BaiduMapKit', '~> 4.3.2'
+  pod 'BMKLocationKit', '~> 1.6.0'
+  pod 'SocketRocket', '0.4.2'
+```
 3.设置项目定位权限，否则定位功能无法使用！
 
 4.在weexSDK启动后，再注册百度AK.
-    ```
+```
     [WeexSDKManager setup];
     //weexSDK初始化后调用，因为在内部注册了map和loction组件。
     [[TCMLocationManager instance] registerWithKey:@"你的应用ak" result:^(BMKLocationAuthErrorCode authCode) {
@@ -27,7 +28,7 @@
                 
         }
     }];
-    ```
+```
 5.在native项目的DemoDefine.h中修改IP为你的服务IP。
   在NSURL+XZOL.m的HTTP_RemoteResourceReplace方法中设置远程线上服务器地址
   ```
@@ -254,7 +255,7 @@ weex使用：
 
 ## 展示效果
 
- [img](https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png)
- [img](https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png)
- [img](https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png)
- [img](https://github.com/ZJWeex/wxbaidumap/blob/master/search.png)
+ ![image](https://github.com/ZJWeex/wxbaidumap/blob/master/userLoc.png)
+ ![image](https://github.com/ZJWeex/wxbaidumap/blob/master/annotation.png)
+ ![image](https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png)
+ ![image](https://github.com/ZJWeex/wxbaidumap/blob/master/search.png)
