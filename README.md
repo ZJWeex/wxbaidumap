@@ -156,7 +156,7 @@ weex使用：
     subtitle:副标题 <br>
 
 ## location模块
-**location** 模块提供了以下展示消息框的 API: `location`、`geoCode`、`reverseGeoCode`、`POISearch`
+**location** 模块提供了以下 API: `location`、`geoCode`、`reverseGeoCode`、`POISearch`
 ### location(callback)
 说明：返回经纬度及位置信息 <br>
 返回结果：
