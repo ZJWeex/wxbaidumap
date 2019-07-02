@@ -24,9 +24,11 @@
 
 + (void)initWeexSDK
 {
+    NSString *bundleName = [[NSBundle mainBundle] infoDictionary][(__bridge NSString *)kCFBundleNameKey];
+    NSLog(@"bundleName:%@",bundleName);
     [WXAppConfiguration setAppGroup:@"AliApp"];
-    [WXAppConfiguration setAppName:@"WeexDemo"];
-    [WXAppConfiguration setAppVersion:@"1.8.3"];
+    [WXAppConfiguration setAppName:[[NSBundle mainBundle] infoDictionary][@"CFBundleDisplayName"]];
+    [WXAppConfiguration setAppVersion:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]];
     [WXAppConfiguration setExternalUserAgent:@"ExternalUA"];
     
     [WXSDKEngine initSDKEnvironment];
