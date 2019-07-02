@@ -273,5 +273,3 @@ weex使用：
         </td>
     </tr> 
 </table>
-
-![1](https://github.com/ZJWeex/wxbaidumap/blob/master/paopao.png)![2](https://github.com/ZJWeex/wxbaidumap/blob/master/search.png)
