@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA02EDC2088560DB7DE11B78A83AE12A"
+               BlueprintIdentifier = "86482710CFA828A8D25D89AB0D46EEEF"
                BlueprintName = "Pods-MapComponent"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-MapComponent.framework">
+               BuildableName = "libPods-MapComponent.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

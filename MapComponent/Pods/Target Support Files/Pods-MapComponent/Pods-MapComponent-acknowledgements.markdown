@@ -52,6 +52,11 @@ SOFTWARE.
 
 
 
+## BindingX
+
+Alibaba-INC copyright
+
+
 ## MJExtension
 
 Copyright (c) 2013-2019 MJExtension (https://github.com/CoderMJLee/MJExtension)
@@ -116,6 +121,11 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 
+
+
+## WeexPluginLoader
+
+Alibaba-INC copyright
 
 
 ## WeexSDK

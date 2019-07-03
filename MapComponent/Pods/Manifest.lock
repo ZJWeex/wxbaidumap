@@ -1,38 +1,48 @@
 PODS:
   - BaiduMapKit (4.3.2)
+  - BindingX (1.0.3):
+    - WeexPluginLoader
+    - WeexSDK
   - BMKLocationKit (1.6.0)
   - MJExtension (3.0.17)
   - SDWebImage (5.0.6):
     - SDWebImage/Core (= 5.0.6)
   - SDWebImage/Core (5.0.6)
   - SocketRocket (0.4.2)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
   - WeexSDK (0.24.0)
 
 DEPENDENCIES:
   - BaiduMapKit (~> 4.3.2)
+  - BindingX (~> 1.0.3)
   - BMKLocationKit (~> 1.6.0)
   - MJExtension (~> 3.0.17)
-  - SDWebImage (~> 5.0)
+  - SDWebImage (~> 5.0.6)
   - SocketRocket (= 0.4.2)
   - WeexSDK (~> 0.24.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BaiduMapKit
+    - BindingX
     - BMKLocationKit
     - MJExtension
     - SDWebImage
     - SocketRocket
+    - WeexPluginLoader
     - WeexSDK
 
 SPEC CHECKSUMS:
   BaiduMapKit: a5d9580553355d39a91b24c5eb91ebf298c64038
+  BindingX: b3c6c1c5dcd8e50277cfc5daad09d7010c227524
   BMKLocationKit: c8bd4f213b231f743c12c3095ad6a8311db259d8
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
   SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
   WeexSDK: 5bd35be9c035c67c84d1ba15712360bb0d0ba6b5
 
-PODFILE CHECKSUM: 51bce0970931e2814acdd657aeefc2fee321bb43
+PODFILE CHECKSUM: ef60636cf2c6d92e584845d15dd875be5a788bb0
 
 COCOAPODS: 1.5.2

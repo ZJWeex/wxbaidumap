@@ -77,6 +77,17 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Alibaba-INC copyright
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>BindingX</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>Copyright (c) 2013-2019 MJExtension (https://github.com/CoderMJLee/MJExtension)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -156,6 +167,17 @@ THE SOFTWARE.
 			<string>Apache License, Version 2.0</string>
 			<key>Title</key>
 			<string>SocketRocket</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Alibaba-INC copyright
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>WeexPluginLoader</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
