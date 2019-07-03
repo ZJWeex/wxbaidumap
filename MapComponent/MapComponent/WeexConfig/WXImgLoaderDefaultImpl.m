@@ -64,6 +64,11 @@
     if ([url hasPrefix:@"//"]) {
         url = [@"http:" stringByAppendingString:url];
     }
+    if (completedBlock) {
+        UIImage *placeholder = [UIImage imageNamed:@"defaultImage"];
+        completedBlock(placeholder, nil, NO);
+    }
+    
     return (id<WXImageOperationProtocol>)[[SDWebImageManager sharedManager] loadImageWithURL:[NSURL URLWithString:url] options:(0) progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
         
     } completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, SDImageCacheType cacheType, BOOL finished, NSURL * _Nullable imageURL) {
