@@ -39,6 +39,9 @@
 		B6208BAD22C9A89000C965CE /* NSURL+XZOL.m in Sources */ = {isa = PBXBuildFile; fileRef = B6208BAC22C9A89000C965CE /* NSURL+XZOL.m */; };
 		B6208BB022C9C53900C965CE /* WXResultBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6208BAF22C9C53900C965CE /* WXResultBackgroundView.m */; };
 		B65D739D22CB22AA00129AD3 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D739C22CB22AA00129AD3 /* MessageController.m */; };
+		B69F131F22EC0DC5003338C4 /* 扫描线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69F131B22EC0DC3003338C4 /* 扫描线@2x.png */; };
+		B69F132022EC0DC5003338C4 /* 扫描框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69F131D22EC0DC5003338C4 /* 扫描框@2x.png */; };
+		B69F132122EC0DC5003338C4 /* WXScanQRCodeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F131E22EC0DC5003338C4 /* WXScanQRCodeModule.m */; };
 		F880AD6A4DF28E0888AA6724 /* libPods-MapComponentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4506F196AC11A8481CDC44 /* libPods-MapComponentTests.a */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +134,10 @@
 		B6208BAF22C9C53900C965CE /* WXResultBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXResultBackgroundView.m; sourceTree = "<group>"; };
 		B65D739B22CB22AA00129AD3 /* MessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		B65D739C22CB22AA00129AD3 /* MessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		B69F131B22EC0DC3003338C4 /* 扫描线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描线@2x.png"; sourceTree = "<group>"; };
+		B69F131C22EC0DC4003338C4 /* WXScanQRCodeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScanQRCodeModule.h; sourceTree = "<group>"; };
+		B69F131D22EC0DC5003338C4 /* 扫描框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描框@2x.png"; sourceTree = "<group>"; };
+		B69F131E22EC0DC5003338C4 /* WXScanQRCodeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScanQRCodeModule.m; sourceTree = "<group>"; };
 		C4739AB309485DF575603762 /* Pods-MapComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapComponent/Pods-MapComponent.release.xcconfig"; sourceTree = "<group>"; };
 		C9CF1970CB05CC49E15C0FB2 /* Pods-MapComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapComponentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapComponentUITests/Pods-MapComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD4506F196AC11A8481CDC44 /* libPods-MapComponentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapComponentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,6 +285,10 @@
 		B610ED6E22C4E07400B8D389 /* WeexScanner */ = {
 			isa = PBXGroup;
 			children = (
+				B69F131D22EC0DC5003338C4 /* 扫描框@2x.png */,
+				B69F131B22EC0DC3003338C4 /* 扫描线@2x.png */,
+				B69F131C22EC0DC4003338C4 /* WXScanQRCodeModule.h */,
+				B69F131E22EC0DC5003338C4 /* WXScanQRCodeModule.m */,
 				B610EDBD22C4EE8D00B8D389 /* DemoDefine.h */,
 				B6208BAB22C9A89000C965CE /* NSURL+XZOL.h */,
 				B6208BAC22C9A89000C965CE /* NSURL+XZOL.m */,
@@ -433,10 +444,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69F131F22EC0DC5003338C4 /* 扫描线@2x.png in Resources */,
 				B610EDBB22C4E3D100B8D389 /* location_marker.png in Resources */,
 				B610EC9022C4C91E00B8D389 /* LaunchScreen.storyboard in Resources */,
 				B610EC8D22C4C91E00B8D389 /* Assets.xcassets in Resources */,
 				B610EC8B22C4C91C00B8D389 /* Main.storyboard in Resources */,
+				B69F132022EC0DC5003338C4 /* 扫描框@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +576,7 @@
 				B610EDB822C4E11D00B8D389 /* WXMapComponent.m in Sources */,
 				B610EC9322C4C91E00B8D389 /* main.m in Sources */,
 				B610ED9522C4E0BA00B8D389 /* WXNavigatorModule+Extension.m in Sources */,
+				B69F132122EC0DC5003338C4 /* WXScanQRCodeModule.m in Sources */,
 				B610ED9922C4E0BA00B8D389 /* WXImgLoaderDefaultImpl.m in Sources */,
 				B610ED9822C4E0BA00B8D389 /* WXGlobalEventModule+PostEvent.m in Sources */,
 				B610EDA722C4E0D700B8D389 /* WXNavigationImpl.m in Sources */,
